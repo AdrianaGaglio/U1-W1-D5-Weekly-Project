@@ -104,6 +104,10 @@ header img {
 
 /* main */
 
+.features div {
+  margin-block: 1em;
+}
+
 .featured-image-container {
   max-width: 90%;
   margin-inline: auto;
