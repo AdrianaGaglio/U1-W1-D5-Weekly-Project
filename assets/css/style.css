@@ -88,7 +88,7 @@ header img {
 .hero {
   padding: 1.5em;
   padding-bottom: 2em;
-  background-image: url("/assets/images/banner.jpg");
+  background-image: url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
