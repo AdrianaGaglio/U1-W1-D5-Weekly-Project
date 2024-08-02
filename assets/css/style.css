@@ -39,7 +39,8 @@ h6 {
 
 h1 {
   font-size: 2.2em;
-  margin-top: 0.5em;
+  margin-block: 0.5em;
+  line-height: 1;
 }
 
 h5,
@@ -52,11 +53,11 @@ h6 {
 }
 
 p {
-  margin-block: 1em 1.5em;
+  margin-block: 0.3em 1.5em;
 }
 
 section {
-  padding: 2.5em 1.5em 1.5em 2em;
+  padding: 2.5em 1.5em 2em 1.5em;
 }
 
 button {
@@ -104,13 +105,10 @@ header img {
 
 /* main */
 
-.features div {
-  margin-block: 1em;
-}
-
 .featured-image-container {
   max-width: 90%;
   margin-inline: auto;
+  margin-bottom: 1.5em;
 }
 
 .featured-image-container img {
