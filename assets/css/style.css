@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 body {
   font-size: 1.2em;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -24,7 +30,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 700;
   line-height: 1.5;
@@ -35,17 +42,17 @@ h1 {
   margin-top: 0.5em;
 }
 
-h3 {
-  font-size: ;
-}
-
-h5 {
+h5,
+h6 {
   font-size: 1.6em;
 }
 
+h6 {
+  color: white;
+}
+
 p {
-  margin-top: 1em;
-  margin-bottom: 1.5em;
+  margin-block: 1em 1.5em;
 }
 
 section {
@@ -126,4 +133,47 @@ header img {
   font-size: 0.7em;
 }
 
+.card {
+  font-size: 0.9em;
+  margin-bottom: 2em;
+  border: 1px solid #dee1e3;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  margin-block: 0.5em 1em;
+}
+
+.card div {
+  padding: 1em;
+}
+
 /* footer */
+
+footer {
+  background-color: #25a2c3;
+  padding: 2em;
+}
+
+footer,
+footer a {
+  color: #c8e7f0;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+.contacts {
+  margin-block: 1em 1.7em;
+}
+
+.copy {
+  padding-top: 1.7em;
+  border-top: 1px solid #c8e7f0;
+  margin-inline: 3em;
+  font-size: 0.8em;
+}
