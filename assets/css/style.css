@@ -6,6 +6,7 @@
 }
 
 body {
+  font-size: 1.2em;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: #393d41;
   line-height: 1.65;
@@ -17,8 +18,29 @@ h2,
 h3,
 h4 {
   color: #25a2c3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 700;
   line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-top: 0.5em;
+}
+
+h3 {
+  font-size: ;
+}
+
+h5 {
+  font-size: 1.6em;
 }
 
 p {
@@ -27,6 +49,7 @@ p {
 }
 
 section {
+  padding: 2.5em 1.5em 1.5em 2em;
 }
 
 button {
@@ -57,15 +80,11 @@ header img {
 
 .hero {
   padding: 1.5em;
+  padding-bottom: 2em;
   background-image: url("/assets/images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-h1 {
-  font-size: 2.2em;
-  margin-top: 1em;
 }
 
 .hero button {
@@ -77,5 +96,34 @@ h1 {
 }
 
 /* main */
+
+.featured-image-container {
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+.featured-image-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.testimonial {
+  background-color: #e22d0e;
+  color: white;
+}
+
+.testimonial > p {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.author p {
+  margin-bottom: 0;
+}
+
+.author p:last-child {
+  margin-top: 0;
+  font-size: 0.7em;
+}
 
 /* footer */
